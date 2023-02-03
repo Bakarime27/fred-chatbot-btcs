@@ -19,5 +19,5 @@ def webhook():
     else:
         return jsonify({"fulfillmentText": 'Nous n\'avons pas pour l\'instant de bien correspondant à votre demande' })
 # run Flask app
-if __name__ == "__main__":
-    app.run()
+#if __name__ == "__main__":
+#    app.run()
